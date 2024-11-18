@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1
+        {
+            border: 3px solid black;
+            height: 60px;
+            width: 50px;
+            border-radius: 15px; 
+        }
+        .d1 #i1 ,  #i2 ,  #i3
+        {
+            border: 3px solid black;
+            width: 30px;
+            height: 1px;
+            margin: 10px 0px 0px 8px;
+            background-color: black;
+            border-radius: 30px;
+        }
+        .d2
+        {
+            
+            display: none;
+            border: 1px solid red;
+            height: 150px;
+            width: 100px;
+            margin: 0px 0px 0px 80px;
+            padding: 0px 0px 0px 20px;
+            border-radius: 20px;
+            font-style: italic;
+            color: blue;
+        }
+        .d1:active >.d2
+        {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="d1">
+        
+            <div id="i1"></div>
+            <div id="i2" ></div>
+            <div id="i3"></div>
+
+            <div class="d2">
+                <p>HOME</p>
+                <p>CONTACT US</p>
+                <p>LOGIN</p>
+                <p>SIGN UP</p>
+            </div>
+        
+
+    </div>
+</body>
+</html>
